@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Materi Keperawatan",
+    "slug": "materi-keperawatan",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sahabatalter.materikeperawatan",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~1458002511"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-9341343436751788~4469194052"
+      },
+      "package": "com.sahabatalter.materikeperawatan",
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "CAMERA_ROLL",
+        "INTERNET",
+        "SYSTEM_ALERT_WINDOW"
+      ],
+      "versionCode": 11
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
